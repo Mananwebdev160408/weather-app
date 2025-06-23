@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+}
+main{
+    background-image: url(Untitled\ design.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cont{
+    /* border: 1px solid red; */
+    height: 70vh;
+    width: 50vw;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    
+}
+.top{
+    /* border: 1px solid red; */
+    height: 7vh;
+    width: 45vw;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.search-box{
+    font-size: 10px;
+    border: 3px solid rgb(156, 149, 149);
+    box-sizing: border-box;
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background: none;
+    color: black;
+    font-weight: 500;
+}
+.search-btn, .search-btn button{
+    border-radius: 50%;
+    background: rgba(255,255,255,0.6);
+    width: 25px;
+    height: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@keyframes searchbtnani {
+    from{
+      transform: scale(1);
+      background-color: rgba(255,255,255,0.6);
+    }
+    to{
+       transform: scale(1.2);
+        background-color: rgb(59, 228, 228);
+    }
+
+}
+.search-btn:hover{
+    animation: searchbtnani 0.2s ease-in-out 0s 1 normal forwards; }
+.search-btn{
+    position: absolute;
+    left: 458px;
+}
+.name-and-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 44vw;
+    margin: 5px 3vw;
+    height: 7vh;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.search-box:focus{
+  border-color: black;
+}
+.temp{
+    /* border: 1px solid red; */
+    width: 44vw;
+    margin: 5px 3vw;
+    display: flex;
+    justify-content: center;
+}
+.temp p{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 5px;
+}
+.other-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 44vw;
+    margin: 25px 3vw;
+}
+.other-details-cards{
+    width: 13vw;
+    height: 25vh;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    background-color: rgba(0, 255, 255,0.3);
+    text-align: center;
+    padding-top: 5px;
+}
+.other-details-cards h1{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.other-details-cards h6{
+    font-size: 0.8em;
+    margin-bottom: 18px;
+    
+
+}
