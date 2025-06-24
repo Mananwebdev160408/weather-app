@@ -66,10 +66,10 @@ main{
 }
 .search-btn:hover{
     animation: searchbtnani 0.2s ease-in-out 0s 1 normal forwards; }
-.search-btn{
+/* .search-btn{
     position: absolute;
     left: 458px;
-}
+} */
 .name-and-date{
     display: flex;
     justify-content: space-between;
